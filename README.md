@@ -11,11 +11,11 @@
 - Ansible
 - Python 3.x
 
-Встановлення Ansible - sudo apt install ansible
+### Встановлення Ansible - sudo apt install ansible
 
-Файли додатку + requirements.txt + файли докеру (Dockerfile + docker-compose.yml) знаходяться в ansible/app.
+#### Файли додатку + requirements.txt + файли докеру (Dockerfile + docker-compose.yml) знаходяться в ansible/app.
 
-ВАЖЛИВО: Перед запуском проекту, не забудьте відредагувати inventory.ini в Ansible, замінивши айпі та ім'я користувача на свої дані.
+### ВАЖЛИВО: Перед запуском проекту, не забудьте відредагувати inventory.ini в Ansible, замінивши айпі та ім'я користувача на свої дані.
 
 ### Запуск
 #### 1. Запуск:
