@@ -19,5 +19,6 @@
 
 #### Запуск
 Запуск: ansible-playbook -i inventory.ini playbook.yml
+Якщо запуск вдалий, перейдіть по http://localhost:5000 або http://YOUR-IP:5000
 
 
