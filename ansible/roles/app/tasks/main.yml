@@ -1,7 +1,15 @@
-- name: Copy application files
+- name: Копіювати файли додатку
   copy:
-    src: ./app/
+    src: "{{ playbook_dir }}/app/"
     dest: /opt/app/
+    remote_src: no
+    force: yes
+- name: Копіювати файл docker-compose
+  copy:
+    src: "{{ playbook_dir }}/app/docker-compose.yml"
+    dest: /opt/app/
+    remote_src: no
+    force: yes
 
 - name: Deploy application with Docker Compose
   shell: docker-compose up -d
