@@ -1,0 +1,9 @@
+- name: Copy application files
+  copy:
+    src: ./app/
+    dest: /opt/app/
+
+- name: Deploy application with Docker Compose
+  shell: docker-compose up -d
+  args:
+    chdir: /opt/app/

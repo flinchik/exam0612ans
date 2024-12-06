@@ -1,0 +1,6 @@
+- name: Розгортання веб-додатку
+  hosts: web
+  become: true
+  roles:
+    - docker
+    - app
