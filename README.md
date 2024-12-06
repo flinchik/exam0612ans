@@ -18,7 +18,11 @@
 ВАЖЛИВО: Перед запуском проекту, не забудьте відредагувати inventory.ini в Ansible, замінивши айпі та ім'я користувача на свої дані.
 
 #### Запуск
-1. Запуск: ansible-playbook -i inventory.ini playbook.yml
+1. Запуск:
+git clone https://github.com/flinchik/exam0612ans.git
+cd exam0612ans
+cd ansible
+ansible-playbook -i inventory.ini playbook.yml
 
 2. Якщо запуск вдалий, перейдіть по http://localhost:5000 або http://YOUR-IP:5000
 
