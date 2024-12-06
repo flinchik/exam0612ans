@@ -1,10 +1,10 @@
-- name: Копіювати файли додатку
+- name: Сopy application files
   copy:
     src: "{{ playbook_dir }}/app/"
     dest: /opt/app/
     remote_src: no
     force: yes
-- name: Копіювати файл docker-compose
+- name: Copy docker-compose
   copy:
     src: "{{ playbook_dir }}/app/docker-compose.yml"
     dest: /opt/app/
