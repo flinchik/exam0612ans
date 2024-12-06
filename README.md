@@ -19,13 +19,13 @@
 
 #### Запуск
 1. Запуск:
-git clone https://github.com/flinchik/exam0612ans.git
+1) git clone https://github.com/flinchik/exam0612ans.git
 
-cd exam0612ans
+2) cd exam0612ans
 
-cd ansible
+3) cd ansible
 
-ansible-playbook -i inventory.ini playbook.yml
+4) ansible-playbook -i inventory.ini playbook.yml
 
 2. Якщо запуск вдалий, перейдіть по http://localhost:5000 або http://YOUR-IP:5000
 
